@@ -72,6 +72,7 @@ class Opencv < Formula
       -DOPENCV_EXTRA_MODULES_PATH=#{buildpath}/opencv_contrib/modules
       -DOPENCV_GENERATE_PKGCONFIG=ON
       -DPROTOBUF_UPDATE_FILES=ON
+      -DWITH_EXAMPLES=ON
       -DWITH_1394=OFF
       -DWITH_CUDA=OFF
       -DWITH_EIGEN=ON
